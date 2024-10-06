@@ -1,0 +1,43 @@
+@media(max-width:768px)
+{
+    .main{
+        width: 100%;
+        margin: auto;
+    }
+    .content h1{
+        font-size: 25px;
+    }
+    .feature h1{
+        font-size: 25px;
+    }
+    .feature{
+        width: 100%;
+        height: auto;
+    }
+    select,button{
+        width: 70px;
+        height: 50px;
+        border: 2px solid white;
+        color: white;
+        background-color: transparent;
+        margin-right: 20px;
+    }
+    input{
+        width: 150px;
+        height: 46px;
+        background-color:rgb(50, 48, 48);
+        border: 1px solid white;
+        color: white;
+    
+    }
+    #f{
+        font-size: 20px;
+    }
+    details{
+        width: 100%;
+        background-color: rgba(85, 81, 81, 0.468);
+        padding: 10px 10px;
+        margin: 10px;
+        font-size: 18px;
+    }
+}

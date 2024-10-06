@@ -1,0 +1,141 @@
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    margin: 0%;
+    background-color: black;
+    
+
+}
+
+.bg{
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+    background-image: url(Assets/banner.jpg);
+    background-size: cover;
+   
+
+}
+
+header{
+    width: 100%;
+    height: 20vh;
+    clear: both;
+    display: table;
+
+}
+
+.logo,
+nav{
+    width: 50%;
+    height:20vh;
+    float: left;
+    background-color:transparent;
+    text-align: center;
+}
+
+.logo img{
+    width: 200px;
+}
+
+nav{
+     padding: 35px;
+     box-sizing: border-box;
+     text-align: center;
+}
+
+select,button{
+    width: 150px;
+    height: 50px;
+    border: 2px solid white;
+    color: white;
+    background-color: transparent;
+    margin-right: 20px;
+}
+
+option{
+      color:black;
+}
+
+.content{
+    width: 100%;
+    height: 80vh;
+    background-color:transparent;
+    text-align: center;
+    padding-top: 120px;
+    box-sizing: border-box;
+    color: white;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+p{
+    font-size: 17px;
+    
+}
+
+input{
+    width: 270px;
+    height: 46px;
+    background-color:rgb(50, 48, 48);
+    border: 1px solid white;
+    color: white;
+
+}
+.content button{
+    width: 100px;
+    background-color: red;
+    font-weight: 250;
+}
+
+.main{
+    width: 80%;
+    margin: auto;
+    background-color: black;
+    clear: both;
+    display: table;
+    color: white;
+
+}
+
+.feature{
+    width: 50%;
+    height: 400px;
+    float:left;
+    padding: 40px;
+    box-sizing: border-box;
+
+}
+
+.feature img{
+    width: 100%;
+}
+.feature h1{
+    font-size: 45px;
+    padding-top:20px;
+}
+.faq{
+    color: white;
+    width: 70%;
+    margin: auto;
+    padding-bottom: 100px;
+}
+details{
+    width: 100%;
+    background-color: rgba(85, 81, 81, 0.468);
+    padding: 30px 10px;
+    margin: 10px;
+    font-size: 22px;
+}
+#f{
+    text-align: center;
+}
+details p{
+    margin-top: 5px;
+    padding-top: 20px;
+}
